@@ -10,10 +10,10 @@ class Element extends HTMLElement {
 		this.shadowRoot.appendChild(tmp)
 	}
 
-	static get observedAttributes() { return ["title"] }
+	static get observedAttributes() { return ["text"] }
 
 	attributeChangedCallback(name, oldVal, newVal) {
-		if(name==="title") {
+		if(name==="text") {
 			this.shadowRoot.getElementById("title").innerHTML = newVal
 		}
 	}
