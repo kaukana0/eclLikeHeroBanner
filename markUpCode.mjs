@@ -14,7 +14,7 @@ export default class MarkUpCode {
   static getHtml(title) {
     let retVal = `
 		<div style="height: 90px; display:flex; justify-content: space-between; background: url('./components/eclLikeHeroBanner/img/banner-graphical-element.svg') 65%/contain no-repeat, linear-gradient(125deg, #082b7a 35%, #AFDFE9 75%, white 100%);">
-			<p id="title" style="font-weight: 700; color:white; align-self: center; margin-left:40px;">${title}</p>
+			<p id="title" style="font-weight: 700; color:white; align-self: center; margin-left:35px;">${title}</p>
 			<img src="./components/eclLikeHeroBanner/img/estat-logo-horizontal.svg" style="width:163.11px; height:22px; margin-right:10px; margin-top:37px; cursor:pointer;" onclick="window.open('https://ec.europa.eu/eurostat','_self')" tabindex="0"/>
 		</div>
 		<style>
