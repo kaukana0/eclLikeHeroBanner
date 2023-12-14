@@ -36,8 +36,11 @@ export default class MarkUpCode {
 			}
 			@media (max-width:540px) {
 				p {
-					font-size: 1em;
-					line-height: 1.2em;
+					/*font-size: 1em;
+					line-height: 1.2em;*/
+				}
+				img {
+					display: none;
 				}
 			}
 		</style>
