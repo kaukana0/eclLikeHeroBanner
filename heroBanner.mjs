@@ -8,6 +8,14 @@ class Element extends HTMLElement {
 		this.attachShadow({mode: 'open'})
 		const tmp = MarkUpCode.getHtmlTemplate(MarkUpCode.getHtml()).cloneNode(true)
 		this.shadowRoot.appendChild(tmp)
+		this.shadowRoot.getElementById("image").addEventListener("click", e=>{
+			window.open('https://ec.europa.eu/eurostat','_self')
+		})
+		this.shadowRoot.getElementById("image").addEventListener("keyup", e=>{
+			if(e.key=="Enter") {
+				window.open('https://ec.europa.eu/eurostat','_self')
+			}
+		})
 	}
 
 	static get observedAttributes() { return ["text"] }
