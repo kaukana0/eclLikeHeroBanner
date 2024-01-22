@@ -18,11 +18,14 @@ class Element extends HTMLElement {
 		})
 	}
 
-	static get observedAttributes() { return ["text"] }
+	static get observedAttributes() { return ["text", "subtitle"] }
 
 	attributeChangedCallback(name, oldVal, newVal) {
 		if(name==="text") {
 			this.shadowRoot.getElementById("title").innerHTML = newVal
+		}
+		if(name==="subtitle") {
+			this.shadowRoot.getElementById("subtitle").innerHTML = newVal
 		}
 	}
 
