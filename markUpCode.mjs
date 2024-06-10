@@ -24,13 +24,13 @@ export default class MarkUpCode {
 				<p id="title" style="margin:0px 0px 0px 35px;"></p>
 				<p id="subtitle" style="margin:0px 0px 0px 35px;"></p>
 			</div>
-			<img id="image" src="./components/eclLikeHeroBanner/img/estat-logo-horizontal.svg" style="display:none; width:163.11px; height:22px; margin-right:10px; cursor:pointer;" tabindex="0" alt="Home - Eurostat" aria-label="Home - Eurostat" />
+			<img id="image" src="./components/eclLikeHeroBanner/img/estat-logo-horizontal.svg" style="display:none; width:163.11px; height:22px; margin-right:35px; cursor:pointer;" tabindex="0" alt="Home - Eurostat" aria-label="Home - Eurostat" />
 		</div>
 
 		<style>
 			#texts {
-				--font-title-size-base: 		47px;
-				--font-subtitle-size-base: 	24px;
+				--font-title-size-base: 		38.4px;
+				--font-subtitle-size-base: 	22.4px;
 
 				--font-title-size-reduction1: 	 calc(var(--font-title-size-base) - 10px);
 				--font-subtitle-size-reduction1: calc(var(--font-subtitle-size-base) - 10px);
